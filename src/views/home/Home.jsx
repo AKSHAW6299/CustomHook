@@ -7,7 +7,7 @@ function Home() {
 
     return (
         <div>
-            <h2>Count: {count}</h2><br />
+            <h2>Count:: {count}</h2><br />
             <button 
                 onClick={increment}
                 className='bg-purple-600 text-white px-4 py-2 rounded'
