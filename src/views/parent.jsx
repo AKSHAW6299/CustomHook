@@ -1,8 +1,8 @@
 import React from 'react'
-import useCounterCustomHook from '../child/Child.jsx'
+import useCounterCustomHook from './Child.jsx'
 
 
-function Home() {
+function Parent() {
     const { count, increment } = useCounterCustomHook()
 
     return (
@@ -17,4 +17,4 @@ function Home() {
         </div>
     )
 }
-export default Home
+export default Parent
